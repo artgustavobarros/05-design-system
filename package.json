@@ -1,0 +1,15 @@
+{
+  "name": "@ignite-ui/monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
+  "dependencies": {
+    "turbo": "^2.0.7"
+  },
+  "packageManager": "npm@10.8.1"
+}
